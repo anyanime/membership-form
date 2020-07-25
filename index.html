@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MEMBERSHIP FORM</title>
 
-    <!-- bootstrap styles sheets -->
+    <!-- bootstrap styles sheets -->    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- load my stylessheet -->
@@ -14,20 +14,23 @@
 <body>
     
     <form>
-        <div class="form-row align-items-center">
-            <div class="col-sm-3 my-1">
-                <label class="sr-only" for="inlineFormInputName">Name</label>
-                <input type="text" class="form-control" id="inlineFormInputName" placeholder="Jane Doe">
+        <div class="input-group col-md-3 my-1" >
+            <div class="input-group-prepend">
+                <div class="input-group-text">Name</div>
             </div>
-            <div class="col-sm-3 my-1">
-                <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">@</div>
-                    </div>
-                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
-                </div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Your Name">
+        </div>
+        <div class="input-group col-md-3     my-1">
+            <div class="input-group-prepend">
+                <div class="input-group-text">Phone</div>
             </div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Your Email">
+        </div>
+        <div class="input-group col-md-3     my-1">
+            <div class="input-group-prepend">
+                <div class="input-group-text">D.O.B</div>
+            </div>
+            <input type="date" class="form-control" id="inlineFormInputGroupUsername" placeholder="D.O.B">
         </div>
           <div class="col-auto my-1">
                 <button type="submit" class="btn btn-primary">Submit</button>
