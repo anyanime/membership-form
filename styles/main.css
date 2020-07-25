@@ -1,0 +1,20 @@
+form {
+    margin: auto;    
+    padding-top: 10em;
+}
+
+.container {
+    margin: auto;   
+    padding: 2em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    line-height: 10px;
+    color: cornflowerblue;
+}
+
+.centre {
+    text-align: center;
+    padding: 2em;
+}
